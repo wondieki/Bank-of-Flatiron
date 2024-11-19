@@ -1,5 +1,7 @@
 import React from "react";
 import AccountContainer from "./AccountContainer";
+import AddTransactionForm from "./AddTransactionForm";
+import TransactionsList from "./TransactionsList";
 
 function App() {
   return (
@@ -8,6 +10,8 @@ function App() {
         <h2>The Royal Bank of Flatiron</h2>
       </div>
       <AccountContainer />
+      <AddTransactionForm/>
+      <TransactionsList/>
     </div>
   );
 }
